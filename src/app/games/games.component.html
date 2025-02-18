@@ -1,1 +1,6 @@
-<p>games works!</p>
+<h3>Juegos favoritos de {{ username }}</h3>
+<ul>
+  @for (game of games; track game.id){
+  <li (click)="favorite(game.name)">{{ game.name }}</li>
+  }
+</ul>

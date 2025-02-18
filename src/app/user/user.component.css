@@ -5,3 +5,8 @@ section {
   padding-top: 32px;
   font-size: 36px;
 }
+
+img {
+  border-radius: 50%;
+  width: 100px;
+}
